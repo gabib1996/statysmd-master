@@ -1,0 +1,19 @@
+.root {
+  background-color: var(--surface);
+  padding: var(--unit);
+  margin-top: var(--unit);
+}
+
+.input {
+  &.error {
+    border-color: var(--error);
+  }
+}
+
+.hint {
+  &.error {
+    font-size: var(--xs);
+    color: var(--error);
+    margin-block-start: var(--flow-sm);
+  }
+}

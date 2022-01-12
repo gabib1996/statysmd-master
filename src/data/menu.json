@@ -1,0 +1,22 @@
+[
+  {
+    "text": "About us",
+    "link": "/about/"
+  },
+  {
+    "text": "Our team",
+    "link": "/team/"
+  },
+  {
+    "text": "Our services",
+    "link": "/services/"
+  },
+  {
+    "text": "News & views",
+    "link": "/news/"
+  },
+  {
+    "text": "Contact us",
+    "link": "/contact"
+  }
+]

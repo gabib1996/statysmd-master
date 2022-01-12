@@ -1,0 +1,63 @@
+[
+  {
+    "head": "Statys Medical Development",
+    "list": [
+      {
+        "text": "Work with us",
+        "link": "/careers/"
+      },
+      {
+        "text": "Privacy policy",
+        "link": "/privacy/"
+      },
+      {
+        "text": "Terms of use",
+        "link": "/terms/"
+      }
+    ]
+  },
+  {
+    "head": "Head office",
+    "list": [
+      {
+        "text": "2540 Matheson Blvd East<br />Suite 108<br />Mississauga, Ontario<br />L4W 4Z2"
+      },
+      {
+        "text": "Phone: 1-800-688-7347",
+        "link": "tel:+1-800-688-7347"
+      },
+      {
+        "text": "Map",
+        "link": "https://goo.gl/maps/smMwjsARCk3Dz5sZ6"
+      }
+    ]
+  },
+  {
+    "head": "Thunder Bay office",
+    "list": [
+      {
+        "text": "1265 Arthur Street East<br />Suite 401<br />Thunder Bay, Ontario<br />P7E 6E7"
+      },
+      {
+        "text": "Map",
+        "link": "https://goo.gl/maps/mdLnBmc4oNiS6KX78"
+      }
+    ]
+  },
+  {
+    "head": "Contact us",
+    "list": [
+      {
+        "text": "1-800-555-1234",
+        "link": "tel:+1-800-688-7347"
+      },
+      {
+        "text": "info@statysmd.com",
+        "link": "mailto:info@statysmd.com"
+      },
+      {
+        "text": "8AM to 5PM CT / 9AM to 6PM ET<br />(Monday to Friday)"
+      }
+    ]
+  }
+]

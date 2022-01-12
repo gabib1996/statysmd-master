@@ -1,0 +1,67 @@
+.root {
+  font-size: var(--lg);
+  font-weight: var(--book);
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.875);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+  padding-block: 1rem;
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  right: 0;
+
+  @media @min-lg {
+    font-size: var(--sm);
+    background-color: transparent;
+    box-shadow: none;
+    padding-block: 0;
+    display: flex;
+    position: static;
+  }
+}
+
+.item {
+  padding-block: 1rem;
+
+  @media @min-lg {
+    flex: 1 0 auto;
+    padding-block: 0;
+
+    & + & {
+      margin-left: var(--unit);
+    }
+  }
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+  padding: var(--flow-sm) var(--flow-md);
+}
+
+//
+//  Theme
+//
+@media @min-lg {
+  .ondark {
+    color: white;
+  }
+
+  .onlite {
+    color: black;
+  }
+}
+
+//
+//  Active
+//
+.active {
+  font-weight: var(--bold);
+  color: var(--primary);
+
+  @media @min-lg {
+    font-weight: var(--book);
+    color: inherit;
+    border: 1px solid currentColor;
+  }
+}

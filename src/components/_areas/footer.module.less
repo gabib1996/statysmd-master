@@ -1,0 +1,51 @@
+.root {
+  font-size: 0.875rem;
+  line-height: calc($font-size + var(--lead));
+  color: var(--on-secondary);
+  background-color: var(--secondary);
+  margin-block-start: var(--area);
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-block-start: var(--flow-md);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.banner {
+  font-size: 0.75rem;
+  line-height: calc($font-size + var(--lead));
+  color: #ccc;
+  border-top: 1px solid rgba(255, 255, 255, 0.125);
+  padding: var(--flow-sm) var(--unit);
+}
+
+//
+//  Flex
+//  Space between
+//
+.rack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  > * {
+    flex: 0 0 auto;
+  }
+
+  > * + * {
+    margin-left: var(--unit);
+  }
+}
+
+.linkedin {
+  height: 1rem;
+}

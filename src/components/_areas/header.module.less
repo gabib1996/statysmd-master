@@ -1,0 +1,39 @@
+.root {
+  font-size: 0.875rem;
+  width: 100%;
+  padding-inline: var(--unit);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-head);
+  transition: background-color var(--fast) ease-in;
+}
+
+.shelf {
+  transition: padding-block var(--fast) ease-in;
+}
+
+//
+//  Theme
+//
+.lite {
+  background-color: var(--background);
+
+  .shelf {
+    padding-block: var(--flow-md);
+  }
+}
+
+.dark {
+  background-color: transparent;
+
+  .shelf {
+    padding-block: var(--flow-md);
+  }
+
+  @media @min-lg {
+    .shelf {
+      padding-block: var(--flow-lg);
+    }
+  }
+}

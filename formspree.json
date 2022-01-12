@@ -1,0 +1,35 @@
+{
+  "forms": {
+    "contactForm": {
+      "name": "Contact form",
+      "actions": [
+        {
+          "type": "email",
+          "to": "info@statysmd.com"
+        }
+      ],
+      "fields": {
+        "name": {
+          "type": "text",
+          "prettyName": "Your name",
+          "required": true
+        },
+        "email": {
+          "type": "email",
+          "prettyName": "Your email address",
+          "required": true
+        },
+        "phone": {
+          "type": "text",
+          "prettyName": "Your phone number",
+          "required": true
+        },
+        "message": {
+          "type": "text",
+          "prettyName": "Your question or comment",
+          "required": true
+        }
+      }
+    }
+  }
+}

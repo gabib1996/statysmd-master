@@ -1,0 +1,18 @@
+//
+//  Grid
+//
+//  `min-content` of `minmax()` kind of arbitrary
+//
+//  @width=1152, viewport>=1280: 4 cols, 264 col w (gap=2rem)
+//  @width=1152, viewport>=960: 4 cols, 270 col w (gap=1.5rem)
+//  @width=976, viewport>=960: 3 cols, 309.33 col w (gap=1.5rem)
+//  @width=736, viewport>=640: 2 cols, 360 col w (gap=1rem)
+//  @width=382, viewport>=0, 1 col, 382 col w (gap=n/a)
+//  @width=343, viewport>=0: 1 col, 343 col w (gap=n/a)
+//
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--area);
+}

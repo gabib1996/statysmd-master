@@ -1,0 +1,53 @@
+.root {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.svg {
+  height: var(--h-logo);
+  display: block;
+  transition: transform var(--fast) ease-out;
+  transform-origin: top left;
+}
+
+.statys,
+.brand {
+  transition: fill var(--fast) ease-out;
+}
+
+//
+//  Size
+//
+//  Can't use percentage
+//
+@media @min-lg {
+  .sm {
+    transform: scale(1);
+  }
+  .md {
+    transform: scale(1.5);
+  }
+  .lg {
+    transform: scale(2);
+  }
+}
+
+//
+//  Theme
+//
+.ondark {
+  .statys,
+  .brand {
+    fill: white;
+  }
+}
+
+.onlite {
+  .statys {
+    fill: var(--primary);
+  }
+  .brand {
+    fill: #202020;
+  }
+}

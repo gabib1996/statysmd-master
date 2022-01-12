@@ -1,0 +1,36 @@
+//
+//  Color scheme preference
+//
+@dark: e("(prefers-color-scheme: dark)");
+@lite: e("(prefers-color-scheme: light)");
+@none: e("(prefers-color-scheme: no-preference");
+
+//
+//  Primary input mechanism
+//
+@mouse: e("(hover: hover) and (pointer: fine)");
+@touch: e("(hover: none) and (pointer: course)");
+
+//
+//  Viewport orientation
+//
+@landscape: e("(orientation: landscape)");
+@portrait: e("(orientation: portrait)");
+
+//
+//  Viewport width
+//
+@viewport-sm: 640;
+@viewport-md: 960;
+@viewport-lg: 1280;
+@viewport-xl: 1600;
+
+@min-sm: e(%("(min-width: %spx)", @viewport-sm));
+@min-md: e(%("(min-width: %spx)", @viewport-md));
+@min-lg: e(%("(min-width: %spx)", @viewport-lg));
+@min-xl: e(%("(min-width: %spx)", @viewport-xl));
+
+@max-xs: e(%("(max-width: %spx)", @viewport-sm - 1));
+@max-sm: e(%("(max-width: %spx)", @viewport-md - 1));
+@max-md: e(%("(max-width: %spx)", @viewport-lg - 1));
+@max-lg: e(%("(max-width: %spx)", @viewport-xl - 1));
