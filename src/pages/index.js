@@ -1,4 +1,4 @@
-import React from "react"
+3import React from "react"
 import Block from "components/_boxes/block"
 import Cover from "components/_units/cover"
 import Infographic from "components/_units/infographic"
@@ -18,7 +18,7 @@ export default function () {
         </div>
         <div>
           <p>
-            Our company was founded and has been growing since 1992. With the
+            Our company was founded and has been growing since 1993. With the
             growth of our business, K.C. McKee Medical Development has now been
             rebranded to Statys Medical Development to better represent our
             evolution as an organization.
