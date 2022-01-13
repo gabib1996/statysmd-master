@@ -1,4 +1,4 @@
-3import React from "react"
+import React from "react"
 import Block from "components/_boxes/block"
 import Cover from "components/_units/cover"
 import Infographic from "components/_units/infographic"
